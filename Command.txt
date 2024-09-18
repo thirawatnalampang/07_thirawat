@@ -1,0 +1,10 @@
+docker -v
+docker run hello-worldd
+docker run busybox ping google.com
+docker stop
+docker rm
+docker run -p 8800:80 nginx
+docker run -d -p 7800:80 nginx
+docker ls
+docker info
+docker df
